@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>샘플 이미지 생성기</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .project {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .project h3 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .image-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .image-item {
+            text-align: center;
+        }
+        canvas {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .download-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .download-btn:hover {
+            background: #0056b3;
+        }
+        .instructions {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 프로젝트 샘플 이미지 생성기</h1>
+        
+        <div class="instructions">
+            <h3>📋 사용 방법</h3>
+            <p>1. 각 프로젝트의 이미지를 생성합니다</p>
+            <p>2. 다운로드 버튼을 클릭하여 이미지를 저장합니다</p>
+            <p>3. 다운로드한 이미지를 해당 프로젝트 폴더에 저장합니다</p>
+            <p>4. 파일명: thumbnail.jpg, image1.jpg, image2.jpg, image3.jpg</p>
+        </div>
+
+        <div class="project">
+            <h3>프로젝트1: 모던 웹사이트 리뉴얼</h3>
+            <div class="image-container">
+                <div class="image-item">
+                    <canvas id="project1-thumb" width="400" height="300"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project1-thumb', 'project1-thumbnail.jpg')">썸네일 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project1-img1" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project1-img1', 'project1-image1.jpg')">이미지1 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project1-img2" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project1-img2', 'project1-image2.jpg')">이미지2 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project1-img3" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project1-img3', 'project1-image3.jpg')">이미지3 다운로드</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>프로젝트2: 브랜드 아이덴티티 디자인</h3>
+            <div class="image-container">
+                <div class="image-item">
+                    <canvas id="project2-thumb" width="400" height="300"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project2-thumb', 'project2-thumbnail.jpg')">썸네일 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project2-img1" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project2-img1', 'project2-image1.jpg')">이미지1 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project2-img2" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project2-img2', 'project2-image2.jpg')">이미지2 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project2-img3" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project2-img3', 'project2-image3.jpg')">이미지3 다운로드</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>프로젝트3: 프로모션 카탈로그</h3>
+            <div class="image-container">
+                <div class="image-item">
+                    <canvas id="project3-thumb" width="400" height="300"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project3-thumb', 'project3-thumbnail.jpg')">썸네일 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project3-img1" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project3-img1', 'project3-image1.jpg')">이미지1 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project3-img2" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project3-img2', 'project3-image2.jpg')">이미지2 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project3-img3" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project3-img3', 'project3-image3.jpg')">이미지3 다운로드</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>프로젝트4: 모바일 앱 UI/UX</h3>
+            <div class="image-container">
+                <div class="image-item">
+                    <canvas id="project4-thumb" width="400" height="300"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project4-thumb', 'project4-thumbnail.jpg')">썸네일 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project4-img1" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project4-img1', 'project4-image1.jpg')">이미지1 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project4-img2" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project4-img2', 'project4-image2.jpg')">이미지2 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project4-img3" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project4-img3', 'project4-image3.jpg')">이미지3 다운로드</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>프로젝트5: 패키지 디자인</h3>
+            <div class="image-container">
+                <div class="image-item">
+                    <canvas id="project5-thumb" width="400" height="300"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project5-thumb', 'project5-thumbnail.jpg')">썸네일 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project5-img1" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project5-img1', 'project5-image1.jpg')">이미지1 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project5-img2" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project5-img2', 'project5-image2.jpg')">이미지2 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project5-img3" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project5-img3', 'project5-image3.jpg')">이미지3 다운로드</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <h3>프로젝트6: 기업 브랜딩</h3>
+            <div class="image-container">
+                <div class="image-item">
+                    <canvas id="project6-thumb" width="400" height="300"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project6-thumb', 'project6-thumbnail.jpg')">썸네일 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project6-img1" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project6-img1', 'project6-image1.jpg')">이미지1 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project6-img2" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project6-img2', 'project6-image2.jpg')">이미지2 다운로드</button>
+                </div>
+                <div class="image-item">
+                    <canvas id="project6-img3" width="800" height="600"></canvas>
+                    <br>
+                    <button class="download-btn" onclick="downloadImage('project6-img3', 'project6-image3.jpg')">이미지3 다운로드</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 프로젝트별 색상 정의
+        const projectColors = {
+            project1: { primary: '#4A90E2', secondary: '#50C878', accent: '#FF6B6B' },
+            project2: { primary: '#FF6B6B', secondary: '#FF8C42', accent: '#FFD93D' },
+            project3: { primary: '#50C878', secondary: '#20B2AA', accent: '#9370DB' },
+            project4: { primary: '#9370DB', secondary: '#8A2BE2', accent: '#4B0082' },
+            project5: { primary: '#FF8C42', secondary: '#FF6347', accent: '#FF4500' },
+            project6: { primary: '#20B2AA', secondary: '#48D1CC', accent: '#00CED1' }
+        };
+
+        // 이미지 생성 함수
+        function createImage(canvasId, projectNum, imageType, width, height) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            const colors = projectColors[`project${projectNum}`];
+            
+            // 배경 그라데이션
+            const gradient = ctx.createLinearGradient(0, 0, width, height);
+            gradient.addColorStop(0, colors.primary);
+            gradient.addColorStop(1, colors.secondary);
+            
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, width, height);
+            
+            // 텍스트 추가
+            ctx.fillStyle = 'white';
+            ctx.font = `bold ${width * 0.05}px Arial`;
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            
+            let text = '';
+            switch(imageType) {
+                case 'thumb':
+                    text = `프로젝트${projectNum}\n썸네일`;
+                    break;
+                case 'img1':
+                    text = `프로젝트${projectNum}\n이미지1`;
+                    break;
+                case 'img2':
+                    text = text = `프로젝트${projectNum}\n이미지2`;
+                    break;
+                case 'img3':
+                    text = `프로젝트${projectNum}\n이미지3`;
+                    break;
+            }
+            
+            const lines = text.split('\n');
+            lines.forEach((line, index) => {
+                ctx.fillText(line, width/2, height/2 + (index - lines.length/2 + 0.5) * width * 0.08);
+            });
+            
+            // 장식 요소 추가
+            ctx.strokeStyle = 'rgba(255,255,255,0.3)';
+            ctx.lineWidth = 3;
+            ctx.beginPath();
+            ctx.moveTo(0, 0);
+            ctx.lineTo(width, height);
+            ctx.stroke();
+        }
+
+        // 모든 이미지 생성
+        function generateAllImages() {
+            for (let i = 1; i <= 6; i++) {
+                createImage(`project${i}-thumb`, i, 'thumb', 400, 300);
+                createImage(`project${i}-img1`, i, 'img1', 800, 600);
+                createImage(`project${i}-img2`, i, 'img2', 800, 600);
+                createImage(`project${i}-img3`, i, 'img3', 800, 600);
+            }
+        }
+
+        // 이미지 다운로드 함수
+        function downloadImage(canvasId, filename) {
+            const canvas = document.getElementById(canvasId);
+            const link = document.createElement('a');
+            link.download = filename;
+            link.href = canvas.toDataURL('image/jpeg', 0.8);
+            link.click();
+        }
+
+        // 페이지 로드 시 이미지 생성
+        window.addEventListener('load', generateAllImages);
+    </script>
+</body>
+</html>

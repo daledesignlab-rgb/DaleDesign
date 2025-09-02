@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dale Design - 프로젝트 갤러리</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">Dale Design</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">프로젝트</a></li>
+                    <li><a href="#about">소개</a></li>
+                    <li><a href="#contact">연락처</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="hero">
+                <h2>창의적인 디자인 프로젝트</h2>
+                <p>다양한 업종과 스타일의 프로젝트를 확인해보세요</p>
+            </section>
+
+            <section class="projects">
+                <div class="projects-header">
+                    <h3>프로젝트 목록</h3>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">전체</button>
+                        <button class="filter-btn" data-filter="web">웹디자인</button>
+                        <button class="filter-btn" data-filter="brand">브랜딩</button>
+                        <button class="filter-btn" data-filter="print">인쇄물</button>
+                    </div>
+                </div>
+                
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- 프로젝트 카드들이 JavaScript로 동적 생성됩니다 -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Dale Design. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

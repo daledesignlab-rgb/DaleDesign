@@ -1,0 +1,106 @@
+{
+  "projects": [
+    {
+      "id": "cafe115",
+      "title": "모던 웹사이트 리뉴얼",
+      "thumbnail": "images/cafe115/cafe115_1.png",
+      "images": [
+        "images/cafe115/cafe115_1.png",
+        "images/cafe115/cafe115_2.png",
+        "images/cafe115/cafe115_3.png"
+      ],
+      "period": "2025.01 - 2025.03",
+      "client": "테크스타트업",
+      "industry": "IT/소프트웨어",
+      "style": "미니멀리즘, 모던",
+      "mainColor": "#4A90E2",
+      "category": "web",
+      "description": "사용자 경험을 중시한 모던한 웹사이트 리뉴얼 프로젝트입니다."
+    },
+    {
+      "id": "heinne",
+      "title": "브랜드 아이덴티티 디자인",
+      "thumbnail": "images/heinne/heinne_1.png",
+      "images": [
+        "images/heinne/heinne_1.png",
+        "images/heinne/heinne_2.png",
+        "images/heinne/heinne_3.png"
+      ],
+      "period": "2025.02 - 2025.04",
+      "client": "푸드&베버리지",
+      "industry": "식음료",
+      "style": "플레이풀, 컬러풀",
+      "mainColor": "#FF6B6B",
+      "category": "brand",
+      "description": "젊고 활기찬 브랜드 이미지를 표현한 아이덴티티 디자인입니다."
+    },
+    {
+      "id": "project3",
+      "title": "프로모션 카탈로그",
+      "thumbnail": "images/project3/thumbnail.jpg",
+      "images": [
+        "images/project3/image1.jpg",
+        "images/project3/image2.jpg",
+        "images/project3/image3.jpg"
+      ],
+      "period": "2025.03 - 2025.05",
+      "client": "패션 브랜드",
+      "industry": "패션/뷰티",
+      "style": "엘레간트, 럭셔리",
+      "mainColor": "#50C878",
+      "category": "print",
+      "description": "고급스러운 이미지를 전달하는 프로모션 카탈로그입니다."
+    },
+    {
+      "id": "project4",
+      "title": "모바일 앱 UI/UX",
+      "thumbnail": "images/project4/thumbnail.jpg",
+      "images": [
+        "images/project4/image1.jpg",
+        "images/project4/image2.jpg",
+        "images/project4/image3.jpg"
+      ],
+      "period": "2025.04 - 2025.06",
+      "client": "핀테크 기업",
+      "industry": "금융/핀테크",
+      "style": "신뢰감, 직관적",
+      "mainColor": "#9370DB",
+      "category": "web",
+      "description": "사용자 친화적인 모바일 앱 인터페이스 디자인입니다."
+    },
+    {
+      "id": "project5",
+      "title": "패키지 디자인",
+      "thumbnail": "images/project5/thumbnail.jpg",
+      "images": [
+        "images/project5/image1.jpg",
+        "images/project5/image2.jpg",
+        "images/project5/image3.jpg"
+      ],
+      "period": "2025.05 - 2025.07",
+      "client": "화장품 브랜드",
+      "industry": "뷰티/화장품",
+      "style": "내추럴, 오가닉",
+      "mainColor": "#FF8C42",
+      "category": "print",
+      "description": "자연 친화적인 이미지를 담은 패키지 디자인입니다."
+    },
+    {
+      "id": "project6",
+      "title": "기업 브랜딩",
+      "thumbnail": "images/project6/thumbnail.jpg",
+      "images": [
+        "images/project6/image1.jpg",
+        "images/project6/image2.jpg",
+        "images/project6/image3.jpg"
+      ],
+      "period": "2025.06 - 2025.08",
+      "client": "제조업체",
+      "industry": "제조/산업",
+      "style": "전문적, 신뢰감",
+      "mainColor": "#20B2AA",
+      "category": "brand",
+      "description": "기업의 전문성과 신뢰감을 표현한 브랜딩 프로젝트입니다."
+    }
+  ]
+}
