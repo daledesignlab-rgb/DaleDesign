@@ -35,13 +35,13 @@
       "description": "젊고 활기찬 브랜드 이미지를 표현한 아이덴티티 디자인입니다."
     },
     {
-      "id": "project3",
+      "id": "bobosnap",
       "title": "프로모션 카탈로그",
-      "thumbnail": "images/project3/thumbnail.jpg",
+      "thumbnail": "images/bobosnap/BOBO SNAP_1.png",
       "images": [
-        "images/project3/image1.jpg",
-        "images/project3/image2.jpg",
-        "images/project3/image3.jpg"
+        "images/bobosnap/BOBO SNAP_1.png",
+        "images/bobosnap/BOBO SNAP_2.png",
+        "images/bobosnap/BOBO SNAP_3.png"
       ],
       "period": "2025.03 - 2025.05",
       "client": "패션 브랜드",
