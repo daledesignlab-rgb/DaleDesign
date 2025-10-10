@@ -2,24 +2,24 @@
   "projects": [
     {
       "id": "cafe115",
-      "title": "모던 웹사이트 리뉴얼",
+      "title": "심플하고 직관적인 카페 로고디자인",
       "thumbnail": "images/cafe115/cafe115_1.png",
       "images": [
         "images/cafe115/cafe115_1.png",
         "images/cafe115/cafe115_2.png",
         "images/cafe115/cafe115_3.png"
       ],
-      "period": "2025.01 - 2025.03",
-      "client": "테크스타트업",
-      "industry": "IT/소프트웨어",
+      "period": "2025.05 - 2025.05",
+      "client": "카페115",
+      "industry": "카페",
       "style": "미니멀리즘, 모던",
       "mainColor": "#4A90E2",
       "category": "web",
-      "description": "사용자 경험을 중시한 모던한 웹사이트 리뉴얼 프로젝트입니다."
+      "description": "심플하게 카페의 특성을 살리면서 이름을 강조한 로고디자인"
     },
     {
       "id": "heinne",
-      "title": "브랜드 아이덴티티 디자인",
+      "title": "생활용품 쇼핑몰 브랜드 디자인",
       "thumbnail": "images/heinne/heinne_1.png",
       "images": [
         "images/heinne/heinne_1.png",
@@ -27,80 +27,131 @@
         "images/heinne/heinne_3.png"
       ],
       "period": "2025.02 - 2025.04",
-      "client": "푸드&베버리지",
-      "industry": "식음료",
-      "style": "플레이풀, 컬러풀",
+      "client": "heinne",
+      "industry": "생활용품",
+      "style": "폰트,럭셔리",
       "mainColor": "#FF6B6B",
       "category": "brand",
-      "description": "젊고 활기찬 브랜드 이미지를 표현한 아이덴티티 디자인입니다."
+      "description": "심플하면서도 고급스러운 느낌을 강조하여 모든 패키지에 어울리게 제작된 디자인"
     },
     {
       "id": "bobosnap",
-      "title": "프로모션 카탈로그",
+      "title": "웨딩스냅 스튜디오 로고",
       "thumbnail": "images/bobosnap/BOBO SNAP_1.png",
       "images": [
         "images/bobosnap/BOBO SNAP_1.png",
         "images/bobosnap/BOBO SNAP_2.png",
         "images/bobosnap/BOBO SNAP_3.png"
       ],
-      "period": "2025.03 - 2025.05",
-      "client": "패션 브랜드",
+      "period": "2025.04 - 2025.04",
+      "client": "bobosnap",
       "industry": "패션/뷰티",
-      "style": "엘레간트, 럭셔리",
+      "style": "클래식,따뜻한,고급스러운",
       "mainColor": "#50C878",
       "category": "print",
-      "description": "고급스러운 이미지를 전달하는 프로모션 카탈로그입니다."
+      "description": "심플하면서 셔터를 의미하는 포인트를 넣어 고급스러움을 강조한 로고디자인"
     },
     {
-      "id": "project4",
-      "title": "모바일 앱 UI/UX",
-      "thumbnail": "images/project4/thumbnail.jpg",
+      "id": "dongle",
+      "title": "초밥집 심볼형 로고디자인",
+      "thumbnail": "images/dongle/dongle_1.png",
       "images": [
-        "images/project4/image1.jpg",
-        "images/project4/image2.jpg",
-        "images/project4/image3.jpg"
+        "images/dongle/dongle_1.png",
+        "images/dongle/dongle_2.jpg",
+        "images/dongle/dongle_3.png"
       ],
-      "period": "2025.04 - 2025.06",
-      "client": "핀테크 기업",
-      "industry": "금융/핀테크",
-      "style": "신뢰감, 직관적",
+      "period": "2025.02 - 2025.02",
+      "client": "동글초밥",
+      "industry": "식당/일식",
+      "style": "직관적, 심플한,따뜻한",
       "mainColor": "#9370DB",
-      "category": "web",
-      "description": "사용자 친화적인 모바일 앱 인터페이스 디자인입니다."
+      "category": "store",
+      "description": "동그란 모양의 초밥을 형상화한 로고디자인"
     },
     {
-      "id": "project5",
-      "title": "패키지 디자인",
-      "thumbnail": "images/project5/thumbnail.jpg",
+      "id": "keybook",
+      "title": "영어학원 로고디자인",
+      "thumbnail": "images/keybook/keybook_1.png",
       "images": [
-        "images/project5/image1.jpg",
-        "images/project5/image2.jpg",
-        "images/project5/image3.jpg"
+        "images/keybook/keybook_1.png",
+        "images/keybook/keybook_2.png",
+        "images/keybook/keybook_3.png"
       ],
-      "period": "2025.05 - 2025.07",
-      "client": "화장품 브랜드",
-      "industry": "뷰티/화장품",
-      "style": "내추럴, 오가닉",
+      "period": "2025.08 - 2025.08",
+      "client": "keybook",
+      "industry": "교육",
+      "style": "단순한,따뜻한,감성적인",
       "mainColor": "#FF8C42",
-      "category": "print",
-      "description": "자연 친화적인 이미지를 담은 패키지 디자인입니다."
+      "category": "edu",
+      "description": "책과 열쇠를 결합한 심볼로, 학습과 성공을 상징하는 로고디자인"
     },
     {
-      "id": "project6",
-      "title": "기업 브랜딩",
-      "thumbnail": "images/project6/thumbnail.jpg",
+      "id": "iamdodo",
+      "title": "의류업체 브랜드 로고디자인",
+      "thumbnail": "images/iamdodo/iamdodo.png",
       "images": [
-        "images/project6/image1.jpg",
+        "images/iamdodo/iamdodo.png",
         "images/project6/image2.jpg",
         "images/project6/image3.jpg"
       ],
-      "period": "2025.06 - 2025.08",
-      "client": "제조업체",
-      "industry": "제조/산업",
-      "style": "전문적, 신뢰감",
+      "period": "2025.03 - 2025.03",
+      "client": "아이엠도도",
+      "industry": "패션/뷰티",
+      "style": "심플, 모던",
       "mainColor": "#20B2AA",
       "category": "brand",
-      "description": "기업의 전문성과 신뢰감을 표현한 브랜딩 프로젝트입니다."
+      "description": "이니셜i와 D를 활용한 심플하고 모던한 로고디자인"
+    },
+    {
+      "id": "mungcoffee",
+      "title": "귀여운 카페로고 디자인",
+      "thumbnail": "images/mungcoffee/mungcoffee_1.png",
+      "images": [
+        "images/mungcoffee/mungcoffee_2.png",
+        "images/mungcoffee/mungcoffee_2.png",
+        "images/project6/image3.jpg"
+      ],
+      "period": "2025.05 - 2025.05",
+      "client": "mungcoffee",
+      "industry": "카페",
+      "style": "모던,귀여운",
+      "mainColor": "#20B2AA",
+      "category": "brand",
+      "description": "귀여운 마스코트 강아지를 머그컵위에 담아 시그니처 크림커피를 표현한 디자인"
+    },
+    {
+      "id": "seablue",
+      "title": "바다 앞 펜션 로고디자인",
+      "thumbnail": "images/seablue/seablue_1.png",
+      "images": [
+        "images/seablue/seablue_1.png",
+        "images/seablue/seablue_2.png",
+        "images/project6/image3.jpg"
+      ],
+      "period": "2025.09 - 2025.09",
+      "client": "바다향기블루",
+      "industry": "숙박",
+      "style": "현대적인,고급스러운",
+      "mainColor": "#20B2AA",
+      "category": "brand",
+      "description": "배낚시를 의미하는 앵커와 바다를 형상화한 디자인"
+    },
+    {
+      "id": "sandgru",
+      "title": "샌드위치 배달전문점 로고디자인",
+      "thumbnail": "images/sandgru/sandgru_1.png",
+      "images": [
+        "images/sandgru/sandgru_1.png",
+        "images/sandgru/sandgru_2.jpg",
+        "images/sandgru/sandgru_2.jpg"
+      ],
+      "period": "2025.06 - 2025.06",
+      "client": "샌드그루",
+      "industry": "식품",
+      "style": "클래식한,다채로운",
+      "mainColor": "#20B2AA",
+      "category": "brand",
+      "description": "건강한 샌드위치를 형상화한 디자인"
     }
   ]
 }
