@@ -11,10 +11,10 @@
       ],
       "period": "2025.05 - 2025.05",
       "client": "카페115",
-      "industry": "카페",
+      "industry": "식품,카페",
       "style": "미니멀리즘, 모던",
       "mainColor": "#4A90E2",
-      "category": "web",
+      "category": "식품.카페",
       "description": "심플하게 카페의 특성을 살리면서 이름을 강조한 로고디자인"
     },
     {
@@ -31,7 +31,7 @@
       "industry": "생활용품",
       "style": "폰트,럭셔리",
       "mainColor": "#FF6B6B",
-      "category": "brand",
+      "category": "생활",
       "description": "심플하면서도 고급스러운 느낌을 강조하여 모든 패키지에 어울리게 제작된 디자인"
     },
     {
@@ -48,7 +48,7 @@
       "industry": "패션/뷰티",
       "style": "클래식,따뜻한,고급스러운",
       "mainColor": "#50C878",
-      "category": "print",
+      "category": "뷰티",
       "description": "심플하면서 셔터를 의미하는 포인트를 넣어 고급스러움을 강조한 로고디자인"
     },
     {
@@ -65,7 +65,7 @@
       "industry": "식당/일식",
       "style": "직관적, 심플한,따뜻한",
       "mainColor": "#9370DB",
-      "category": "store",
+      "category": "식품.카페",
       "description": "동그란 모양의 초밥을 형상화한 로고디자인"
     },
     {
@@ -82,7 +82,7 @@
       "industry": "교육",
       "style": "단순한,따뜻한,감성적인",
       "mainColor": "#FF8C42",
-      "category": "edu",
+      "category": "학원",
       "description": "책과 열쇠를 결합한 심볼로, 학습과 성공을 상징하는 로고디자인"
     },
     {
@@ -91,15 +91,15 @@
       "thumbnail": "images/iamdodo/iamdodo.png",
       "images": [
         "images/iamdodo/iamdodo.png",
-        "images/project6/image2.jpg",
-        "images/project6/image3.jpg"
+        "images/project6/image2.png",
+        "images/project6/image3.png"
       ],
       "period": "2025.03 - 2025.03",
       "client": "아이엠도도",
       "industry": "패션/뷰티",
       "style": "심플, 모던",
       "mainColor": "#20B2AA",
-      "category": "brand",
+      "category": "뷰티",
       "description": "이니셜i와 D를 활용한 심플하고 모던한 로고디자인"
     },
     {
@@ -107,16 +107,16 @@
       "title": "귀여운 카페로고 디자인",
       "thumbnail": "images/mungcoffee/mungcoffee_1.png",
       "images": [
+        "images/mungcoffee/mungcoffee_1.png",
         "images/mungcoffee/mungcoffee_2.png",
-        "images/mungcoffee/mungcoffee_2.png",
-        "images/project6/image3.jpg"
+      
       ],
       "period": "2025.05 - 2025.05",
       "client": "mungcoffee",
       "industry": "카페",
       "style": "모던,귀여운",
       "mainColor": "#20B2AA",
-      "category": "brand",
+      "category": "식품.카페",
       "description": "귀여운 마스코트 강아지를 머그컵위에 담아 시그니처 크림커피를 표현한 디자인"
     },
     {
@@ -126,14 +126,14 @@
       "images": [
         "images/seablue/seablue_1.png",
         "images/seablue/seablue_2.png",
-        "images/project6/image3.jpg"
+        "images/seablue/seablue_3.png"
       ],
       "period": "2025.09 - 2025.09",
       "client": "바다향기블루",
       "industry": "숙박",
       "style": "현대적인,고급스러운",
       "mainColor": "#20B2AA",
-      "category": "brand",
+      "category": "생활",
       "description": "배낚시를 의미하는 앵커와 바다를 형상화한 디자인"
     },
     {
@@ -142,16 +142,84 @@
       "thumbnail": "images/sandgru/sandgru_1.png",
       "images": [
         "images/sandgru/sandgru_1.png",
-        "images/sandgru/sandgru_2.jpg",
-        "images/sandgru/sandgru_2.jpg"
+        "images/sandgru/sandgru_2.png",
+        "images/sandgru/sandgru_2.png"
       ],
       "period": "2025.06 - 2025.06",
       "client": "샌드그루",
       "industry": "식품",
       "style": "클래식한,다채로운",
       "mainColor": "#20B2AA",
-      "category": "brand",
+      "category": "식품.카페",
       "description": "건강한 샌드위치를 형상화한 디자인"
+    },
+    {
+      "id": "dfriend",
+      "title": "디프랜디 생활용품 브랜드 디자인",
+      "thumbnail": "images/dfriend/dfriend_1.png",
+      "images": [
+        "images/dfriend/dfriend_1.png",
+        "images/dfriend/dfriend_2.png",
+        "images/dfriend/dfriend_3.png"
+      ],
+      "period": "2025.06 - 2025.06",
+      "client": "디프랜디",
+      "industry": "생활용품",
+      "style": "모던,클래식",
+      "mainColor": "#20B2AA",
+      "category": "생활",
+      "description": "알파벳 \"D\"를 활용하여 친근함을 표현한 디자인"
+    },
+    {
+      "id": "Gior",
+      "title": "헤어샵 로고 Gior 로고 제작",
+      "thumbnail": "images/Gior/Gior_1.png",
+      "images": [
+        "images/Gior/Gior_1.png",
+        "images/Gior/Gior_2.png",
+        "images/Gior/Gior_3.png"
+      ],
+      "period": "2026.01 - 2026.01",
+      "client": "Gior",
+      "industry": "헤어샵",
+      "style": "모던,클래식",
+      "mainColor": "#20B2AA",
+      "category": "뷰티",
+      "description": "대표 이니셜 G,i 사선을 활용한 심플하고 세련된 디자인"
+    },
+    {
+      "id": "g-math",
+      "title": "수학학원 로고 지수학교습소 로고 제작",
+      "thumbnail": "images/g-math/g-math_1.png",
+      "images": [
+        "images/g-math/g-math_1.png",
+        "images/g-math/g-math_2.png",
+        "images/g-math/g-math_3.png"
+      ],
+      "period": "2025.11 - 2025.11",
+      "client": "지수학교습소",
+      "industry": "교육.학원",
+      "style": "모던,클래식",
+      "mainColor": "#20B2AA",
+      "category": "학원",
+      "description": "귀여운 컨셉으로 수학학원의 친근함을 표현한 디자인"
+    },
+    {
+      "id": "g-math",
+      "title": "수학학원 로고 지수학교습소 로고 제작",
+      "thumbnail": "images/g-math/g-math_1.png",
+      "images": [
+        "images/g-math/g-math_1.png",
+        "images/g-math/g-math_2.png",
+        "images/g-math/g-math_3.png"
+      ],
+      "period": "2025.11 - 2025.11",
+      "client": "지수학교습소",
+      "industry": "교육.학원",
+      "style": "모던,클래식",
+      "mainColor": "#20B2AA",
+      "category": "학원",
+      "description": "귀여운 컨셉으로 수학학원의 친근함을 표현한 디자인"
     }
   ]
 }
