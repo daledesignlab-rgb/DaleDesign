@@ -171,18 +171,18 @@ document.addEventListener('DOMContentLoaded', () => {
     new ProjectGallery();
 });
 
-// 서비스 워커 등록 (PWA 지원)
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-            .then(registration => {
-                console.log('SW 등록 성공:', registration);
-            })
-            .catch(registrationError => {
-                console.log('SW 등록 실패:', registrationError);
-            });
-    });
-}
+// 서비스 워커 등록 (PWA 지원) - sw.js 파일이 있을 때만 등록
+// 주석: sw.js 파일이 필요하면 프로젝트 루트에 생성하세요
+// if ('serviceWorker' in navigator) {
+//     window.addEventListener('load', async () => {
+//         try {
+//             const registration = await navigator.serviceWorker.register('/sw.js');
+//             console.log('SW 등록 성공:', registration);
+//         } catch (error) {
+//             // sw.js 파일이 없거나 등록 실패 시 조용히 무시
+//         }
+//     });
+// }
 
 // 이미지 지연 로딩 최적화
 const imageObserver = new IntersectionObserver((entries, observer) => {
