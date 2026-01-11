@@ -48,7 +48,7 @@
       "industry": "패션/뷰티",
       "style": "클래식,따뜻한,고급스러운",
       "mainColor": "#50C878",
-      "category": "뷰티",
+      "category": "스튜디오",
       "description": "심플하면서 셔터를 의미하는 포인트를 넣어 고급스러움을 강조한 로고디자인"
     },
     {
@@ -161,7 +161,7 @@
         "images/dfriend/dfriend_2.png",
         "images/dfriend/dfriend_3.png"
       ],
-      "period": "2025.06 - 2025.06",
+      "period": "2025.10 - 2025.10",
       "client": "디프랜디",
       "industry": "생활용품",
       "style": "모던,클래식",
@@ -204,21 +204,194 @@
       "description": "귀여운 컨셉으로 수학학원의 친근함을 표현한 디자인"
     },
     {
-      "id": "g-math",
-      "title": "수학학원 로고 지수학교습소 로고 제작",
-      "thumbnail": "images/g-math/g-math_1.png",
+      "id": "mudeon",
+      "title": "인테리어회사 무드온인테리어 로고 제작",
+      "thumbnail": "images/mudeon/mudeon_1.png",
       "images": [
-        "images/g-math/g-math_1.png",
-        "images/g-math/g-math_2.png",
-        "images/g-math/g-math_3.png"
+        "images/mudeon/mudeon_1.png",
+        "images/mudeon/mudeon_2.png"
+       
       ],
-      "period": "2025.11 - 2025.11",
-      "client": "지수학교습소",
-      "industry": "교육.학원",
+      "period": "2025.06 - 2025.06",
+      "client": "무드온인테리어",
+      "industry": "생활",
+      "style": "모던,클래식",
+      "mainColor": "#20B2AA",
+      "category": "생활",
+      "description": "이니셜을 활용하여 공간을 세련되게 표현한 디자인"
+    },
+    {
+      "id": "artenglish",
+      "title": "영어학원 아트영어연구소 로고 제작",
+      "thumbnail": "images/artenglish/artenglish_1.png",
+      "images": [
+        "images/artenglish/artenglish_1.png",
+        "images/artenglish/artenglish_2.png",
+        "images/artenglish/artenglish_3.png"
+       
+      ],
+      "period": "2025.12 - 2025.12",
+      "client": "아트영어연구소",
+      "industry": "학원",
       "style": "모던,클래식",
       "mainColor": "#20B2AA",
       "category": "학원",
-      "description": "귀여운 컨셉으로 수학학원의 친근함을 표현한 디자인"
+      "description": "영어 실력이 상승하는 곡선을 학원이름에 심플하게 표현한 디자인"
+    },
+    {
+      "id": "theblackcircle",
+      "title": "파충류샵 더블랙서클 로고 제작",
+      "thumbnail": "images/theblackcircle/theblackcircle_1.png",
+      "images": [
+        "images/theblackcircle/theblackcircle_1.png",
+        "images/theblackcircle/theblackcircle_2.png",
+        "images/theblackcircle/theblackcircle_3.png"
+       
+      ],
+      "period": "2025.08 - 2025.08",
+      "client": "the black circle",
+      "industry": "생활",
+      "style": "클래식",
+      "mainColor": "#20B2AA",
+      "category": "기타",
+      "description": "대표 이니셜 B와 도마뱀을 결합한 유니크한 디자인"
+    },
+    {
+      "id": "vision",
+      "title": "비전색소폰스튜디오 로고 제작",
+      "thumbnail": "images/vision/vision_1.png",
+      "images": [
+        "images/vision/vision_1.png",
+        "images/vision/vision_2.png",
+        "images/vision/vision_3.png"
+       
+      ],
+      "period": "2025.10 - 2025.10",
+      "client": "비전색소폰스튜디오",
+      "industry": "스튜디오",
+      "style": "클래식",
+      "mainColor": "#20B2AA",
+      "category": "스튜디오",
+      "description": "색소폰과 음표를 결합한 심플하고 세련된 디자인"
+    },
+    {
+      "id": "FINTREE",
+      "title": "it 로고 제작",
+      "thumbnail": "images/FINTREE/FINTREE_1.png",
+      "images": [
+        "images/FINTREE/FINTREE_1.png",
+        "images/FINTREE/FINTREE_2.png",
+        "images/FINTREE/FINTREE_3.png"
+      ],
+      "period": "2025.06 - 2025.06",
+      "client": "FINTREE",
+      "industry": "it",
+      "style": "클래식",
+      "mainColor": "#20B2AA",
+      "category": "기업",
+      "description": "F와 상승 계단을 심볼형 로고로 제작한 디자인"
+    },
+    {
+      "id": "gamdong",
+      "title": "아동복 브랜드 감동모먼트 로고 제작 ",
+      "thumbnail": "images/gamdong/gamdong_1.png",
+      "images": [
+        "images/gamdong/gamdong_1.png",
+        "images/gamdong/gamdong_2.png",
+        "images/gamdong/gamdong_3.png"
+      ],
+      "period": "2025.12 - 2025.12",
+      "client": "gamdong",
+      "industry": "생활",
+      "style": "심플,모던",
+      "mainColor": "#20B2AA",
+      "category": "생활",
+      "description": "폰트와 스마일의 조합으로 감성을 살린 디자인"
+    },
+    {
+      "id": "happy",
+      "title": "행복서림 감성 북카페 로고 제작",
+      "thumbnail": "images/happy/happy_1.png",
+      "images": [
+        "images/happy/happy_1.png",
+        "images/happy/happy_2.png",
+        "images/happy/happy_3.png"
+      ],
+      "period": "2025.06 - 2025.06",
+      "client": "happy",
+      "industry": "카페",
+      "style": "클래식",
+      "mainColor": "#20B2AA",
+      "category": "식품.카페",
+      "description": "냥모나이트 자세를 하고 있는 고양이가 있는 북카페를 형상화한 디자인"
+    },
+    {
+      "id": "koreaglobal",
+      "title": "코리아국제협회 로고 제작",
+      "thumbnail": "images/koreaglobal/koreaglobal_1.png",
+      "images": [
+        "images/koreaglobal/koreaglobal_1.png",
+        "images/koreaglobal/koreaglobal_2.png",
+        "images/koreaglobal/koreaglobal_3.png"
+      ],
+      "period": "2025.09 - 2025.09",
+      "client": "happy",
+      "industry": "협회",
+      "style": "동양적인",
+      "mainColor": "#20B2AA",
+      "category": "기업",
+      "description": "동양적인 무늬를 K 알파벳에 입혀 한국의 협회임을 표현한 디자인"
+    },
+    {
+      "id": "lksports",
+      "title": "체육학원 LK SPORTS 로고 제작",
+      "thumbnail": "images/lksports/lksports_1.png",
+      "images": [
+        "images/lksports/lksports_1.png",
+        "images/lksports/lksports_2.png",
+        "images/lksports/lksports_3.png"
+      ],
+      "period": "2025.06 - 2025.06",
+      "client": "lksports",
+      "industry": "학원",
+      "style": "역동적",
+      "mainColor": "#20B2AA",
+      "category": "학원",
+      "description": "LK의 이름으로 역동적인 느낌을 심볼형으로 제작한 디자인"
+    },
+    {
+      "id": "page",
+      "title": "Page 학생회 로고 제작",
+      "thumbnail": "images/page/page_1.png",
+      "images": [
+        "images/page/page_1.png",
+        "images/page/page_2.png",
+        "images/page/page_3.png"
+      ],
+      "period": "2025.12 - 2025.12",
+      "client": "page",
+      "industry": "기타",
+      "style": "심플",
+      "mainColor": "#20B2AA",
+      "category": "기타",
+      "description": "페이지가 넘어가는 순간을 심플하게 표현한 디자인"
+    },
+    {
+      "id": "synemo",
+      "title": "synemo 블록체인 ai 자산화 플랫폼 로고 제작",
+      "thumbnail": "images/synemo/synemo_1.png",
+      "images": [
+        "images/synemo/synemo_1.png",
+        "images/synemo/synemo_2.png",
+        "images/synemo/synemo_3.png"
+      ],
+      "period": "2025.09 - 2025.10",
+      "client": "synemo",
+      "industry": "기업",
+      "style": "심플",
+      "mainColor": "#20B2AA",
+      "category": "기업",
+      "description": "ai 자산을 기록한다는 의미를 심볼화한 디자인"
     }
   ]
 }
