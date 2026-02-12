@@ -105,11 +105,11 @@
     {
       "id": "iamdodo",
       "title": "의류업체 브랜드 로고디자인",
-      "thumbnail": "images/iamdodo/iamdodo.png",
+      "thumbnail": "images/iamdodo/iamdodo_1.png",
       "images": [
-        "images/iamdodo/iamdodo.png",
-        "images/project6/image2.png",
-        "images/project6/image3.png"
+        "images/iamdodo/iamdodo_1.png",
+        "images/iamdodo/iamdodo_2.png",
+        "images/iamdodo/iamdodo_3.png"
       ],
       "period": "2025.03 - 2025.03",
       "client": "아이엠도도",
@@ -460,6 +460,74 @@
       "mainColor": "#000000",
       "category": "생활",
       "description": "ODS 이니셜로 가전 회로의 흐름을 표현한 디자인"
+    },
+    {
+      "id": "itda",
+      "title": "itda 비영리단체 로고",
+      "thumbnail": "images/itda/itda_1.png",
+      "images": [
+        "images/itda/itda_1.png",
+        "images/itda/itda_2.png",
+        "images/itda/itda_3.png"
+      ],
+      "period": "2025.10 - 2025.10",
+      "client": "itda",
+      "industry": "비영리",
+      "style": "심플,텍스트형",
+      "mainColor": "#000000",
+      "category": "기업",
+      "description": "서로 연결되어 있는 느낌을 텍스트에 표현한 디자인"
+    },
+    {
+      "id": "syd",
+      "title": "신영동수학학원 로고",
+      "thumbnail": "images/syd/syd_1.png",
+      "images": [
+        "images/syd/syd_1.png",
+        "images/syd/syd_2.png",
+        "images/syd/syd_3.png"
+      ],
+      "period": "2026.02 - 2026.02",
+      "client": "syd",
+      "industry": "학원",
+      "style": "심플,심볼형",
+      "mainColor": "#ed6324",
+      "category": "학원",
+      "description": "이니셜 SYD를 간결하게 심볼형으로 표현한 디자인"
+    },
+    {
+      "id": "yeomeong",
+      "title": "여명 학생회 로고",
+      "thumbnail": "images/yeomeong/yeomeong_1.png",
+      "images": [
+        "images/yeomeong/yeomeong_1.png",
+        "images/yeomeong/yeomeong_2.png",
+        "images/yeomeong/yeomeong_3.png"
+      ],
+      "period": "2025.11 - 2025.11",
+      "client": "yeomeong",
+      "industry": "학생회",
+      "style": "심플,심볼형",
+      "mainColor": "#ed6324",
+      "category": "기타",
+      "description": "해와달을 결합하여 직관적으로 표현한 디자인"
+    },
+    {
+      "id": "1n1",
+      "title": "1n1 싱크대 리폼회사 로고",
+      "thumbnail": "images/1n1/1n1_1.png",
+      "images": [
+        "images/1n1/1n1_1.png",
+        "images/1n1/1n1_2.png",
+        "images/1n1/1n1_3.png"
+      ],
+      "period": "2025.08 - 2025.08",
+      "client": "1n1",
+      "industry": "일반",
+      "style": "심플,심볼형",
+      "mainColor": "#000000",
+      "category": "기타",
+      "description": "1N1을 활용하여 싱크대를 형상화한 디자인"
     }
   ]
 }
